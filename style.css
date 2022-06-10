@@ -1,0 +1,51 @@
+html {
+  background-color: rgb(209, 215, 224);
+  font-family: "Rubik Mono One", sans-serif;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+button {
+  height: 40%;
+  margin: 8px;
+}
+
+.topText {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.color {
+  background-color: black;
+  border: 1px black;
+}
+
+.square {
+  background-color: white;
+  border: 1px black;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  gap: 2px 2px;
+  border: 5px black;
+  border-radius: 5px;
+  height: 550px;
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 16px;
+  gap: 5px;
+  color: black;
+}
